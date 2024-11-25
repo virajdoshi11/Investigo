@@ -10,16 +10,26 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
     "react": "18.3.1",
-    "react-native": "0.76.2"
+    "react-native": "0.76.2",
+    "react-native-reanimated": "^3.7.0",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^3.29.0",
+    "react-native-svg": "^15.9.0",
+    "react-native-svg-transformer": "^1.5.0"
+  },
+  "overrides": {
+    "ajv": "^8.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
-    "@react-native-community/cli": "15.0.1",
-    "@react-native-community/cli-platform-android": "15.0.1",
-    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native-community/cli": "latest",
+    "@react-native-community/cli-platform-android": "latest",
+    "@react-native-community/cli-platform-ios": "latest",
     "@react-native/babel-preset": "0.76.2",
     "@react-native/eslint-config": "0.76.2",
     "@react-native/metro-config": "0.76.2",
@@ -35,5 +45,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "type": "module"
 }
